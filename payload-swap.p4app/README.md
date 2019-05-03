@@ -15,11 +15,11 @@ Therefore, all packet payloads must be exactly 4 characters long (not even 3).
 
 # Run
 Install `p4app` tool as instructed [here](https://github.com/p4lang/p4app).
-Run `sudo p4app run payload-swap.p4cap` on a single terminal. The successfull
+Run `sudo p4app run payload-swap.p4app` on a single terminal. The successfull
 output should be as follows
 ```
 $ cd hackathons
-$ sudo p4app run payload-swap.p4cap
+$ sudo p4app run payload-swap.p4app
 > python /p4app/main.py 
 sent a write packet with payload *fooo* and received: fooo
 
